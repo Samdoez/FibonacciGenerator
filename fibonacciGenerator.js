@@ -6,7 +6,7 @@ num = Number(num);
 
 function FibonacciGenerator(num){
     if(num === 1){
-        Output.push(0); // note the problem i was doing here was that i was reassigning  instead of pushing
+        Output.push(0); //Output = Output.push(0); note the problem i was doing here was that i was reassigning  instead of pushing
         return Output;
     }else if(num === 2){
         Output.push(0);
